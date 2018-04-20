@@ -1,6 +1,6 @@
 ---
 - name: Test connection
-  hosts: webserver
+  hosts: 10.10.9.36
   remote_user: root
   tasks:
     - name: test connection
