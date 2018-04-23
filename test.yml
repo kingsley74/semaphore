@@ -1,5 +1,5 @@
 ---
-- name: kingsley test
+- name: stop httpd
   hosts: webserver
   remote_user: root  
   tasks:
