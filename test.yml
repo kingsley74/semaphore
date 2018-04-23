@@ -1,5 +1,5 @@
 ---
-- name: stop httpd
+- name: Stop httpd
   hosts: webserver
   remote_user: root  
   tasks:
