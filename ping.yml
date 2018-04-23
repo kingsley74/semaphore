@@ -1,5 +1,6 @@
 ---
 - name: Test connection
+  hosts: webserver
   remote_user: root
   tasks:
     - name: test connection
